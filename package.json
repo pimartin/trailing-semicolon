@@ -1,17 +1,17 @@
 {
-   "name": "trailing-semicolon",
-   "main": "./lib/trailing-semicolon",
-   "version": "0.0.0",
-   "description": "Inserts a semicolon (or a comma) at the end of the line and brings the cursor back to its previous position.",
-   "activationCommands": {
-      "atom-workspace": [
-         "trailing-semicolon:addSemicolon",
-         "trailing-semicolon:addComma"
-      ]
-   },
-   "repository": "http://github.com/pimartin/trailing-semicolon",
-   "license": "MIT",
-   "engines": {
-      "atom": ">0.50.0"
-   }
+  "name": "trailing-semicolon",
+  "main": "./lib/trailing-semicolon",
+  "version": "0.1.0",
+  "description": "Inserts a semicolon (or a comma) at the end of the line and brings the cursor back to its previous position.",
+  "activationCommands": {
+    "atom-workspace": [
+      "trailing-semicolon:addSemicolon",
+      "trailing-semicolon:addComma"
+    ]
+  },
+  "repository": "http://github.com/pimartin/trailing-semicolon",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
 }
