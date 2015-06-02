@@ -1,6 +1,6 @@
 {
    "atom-text-editor": {
-      "ctrl-;": "trailing-semicolon:addSemicolon",
-      "ctrl-,": "trailing-semicolon:addComma"
+      "ctrl-;": "trailing-semicolon:semicolon",
+      "ctrl-,": "trailing-semicolon:comma"
    }
 }

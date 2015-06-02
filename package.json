@@ -5,12 +5,16 @@
   "description": "Inserts a semicolon (or a comma) at the end of the line and brings the cursor back to its previous position.",
   "activationCommands": {
     "atom-workspace": [
-      "trailing-semicolon:addSemicolon",
-      "trailing-semicolon:addComma"
+      "trailing-semicolon:semicolon",
+      "trailing-semicolon:comma"
     ]
   },
-  "repository": "http://github.com/pimartin/trailing-semicolon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pimartin/trailing-semicolon.git"
+  },
   "license": "MIT",
+  "readme": "# trailing-semicolon\n\n## Description\nAdd (or remove) a semicolon (or a comma) at the end of the line.\n\n## Features\n* Keymapping (default to `ctrl-;` and `ctrl-,`)\n* Context menu in the editor (`Trailing...`)\n* Multiple cursors, multiple lines\n* Ignore empty lines\n\n## How to use\nPress  `ctrl-;` or `ctrl+,` to add/remove a semicolon at the end of the selected lines. The context menu can also be used in the editor, see the `\"Trailing...\"` sub-menu.\n\n## Known issues\n* The keymaps conflict with default configuration, you can change one of the two in your `keymap.cson` file using `trailing-semicolon:semicolon` and `trailing-semicolon:comma` commands.",
   "engines": {
     "atom": ">0.50.0"
   }

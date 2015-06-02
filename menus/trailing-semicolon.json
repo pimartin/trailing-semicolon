@@ -2,15 +2,15 @@
    "context-menu": {
       "atom-text-editor": [
          {
-            "label": "Add trailing...",
+            "label": "Trailing...",
             "submenu": [
                {
                   "label": "Semicolon",
-                  "command": "trailing-semicolon:addSemicolon"
+                  "command": "trailing-semicolon:semicolon"
                },
                {
                   "label": "Comma",
-                  "command": "trailing-semicolon:addComma"
+                  "command": "trailing-semicolon:comma"
                }
             ]
          }
