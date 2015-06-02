@@ -1,7 +1,7 @@
 {
   "name": "trailing-semicolon",
   "main": "./lib/trailing-semicolon",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Inserts a semicolon (or a comma) at the end of the line and brings the cursor back to its previous position.",
   "activationCommands": {
     "atom-workspace": [
