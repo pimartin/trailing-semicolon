@@ -1,7 +1,7 @@
 {
   "name": "trailing-semicolon",
   "main": "./lib/trailing-semicolon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Add (or remove) a semicolon (or a comma) at the end of the line.",
   "activationCommands": {
     "atom-workspace": [
