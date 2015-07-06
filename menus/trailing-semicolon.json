@@ -9,8 +9,16 @@
                   "command": "trailing-semicolon:semicolon"
                },
                {
+                  "label": "Semicolon + new line",
+                  "command": "trailing-semicolon:semicolon-newline"
+               },
+               {
                   "label": "Comma",
                   "command": "trailing-semicolon:comma"
+               },
+               {
+                  "label": "Comma + new line",
+                  "command": "trailing-semicolon:comma-newline"
                }
             ]
          }
