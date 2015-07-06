@@ -1,3 +1,10 @@
+## 1.0.1
+Features:
+* Start a new line (optional with default commands, always with `trailing-semicolon:semicolon-newline` and `trailing-semicolon:comma-newline`)
+
+Bugfixes:
+* Now ignores multiple selections on the same line (after the first one)
+
 ## 1.0.0
 Features:
 * Works on selections spanning over multiple lines

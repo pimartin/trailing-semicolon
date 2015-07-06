@@ -1,22 +1,14 @@
 {
   "name": "trailing-semicolon",
   "main": "./lib/trailing-semicolon",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Add (or remove) a semicolon (or a comma) at the end of the line.",
-=======
-  "version": "1.0.0",
-  "description": "Inserts a semicolon (or a comma) at the end of the line and brings the cursor back to its previous position.",
->>>>>>> parent of 8e3cb14... Pre 1.1.0
-=======
-  "version": "1.0.0",
-  "description": "Inserts a semicolon (or a comma) at the end of the line and brings the cursor back to its previous position.",
->>>>>>> parent of 8e3cb14... Pre 1.1.0
   "activationCommands": {
     "atom-workspace": [
       "trailing-semicolon:semicolon",
-      "trailing-semicolon:comma"
+      "trailing-semicolon:comma",
+      "trailing-semicolon:semicolon-newline",
+      "trailing-semicolon:comma-newline"
     ]
   },
   "repository": {
@@ -24,8 +16,8 @@
     "url": "https://github.com/pimartin/trailing-semicolon.git"
   },
   "license": "MIT",
-  "readme": "# trailing-semicolon\n\n## Description\nAdd (or remove) a semicolon (or a comma) at the end of the line.\n\n## Features\n* Keymapping (default to `ctrl-;` and `ctrl-,`)\n* Context menu in the editor (`Trailing...`)\n* Multiple cursors, multiple lines\n* Ignore empty lines\n\n## How to use\nPress  `ctrl-;` or `ctrl+,` to add/remove a semicolon at the end of the selected lines. The context menu can also be used in the editor, see the `\"Trailing...\"` sub-menu.\n\n## Known issues\n* The keymaps conflict with default configuration, you can change one of the two in your `keymap.cson` file using `trailing-semicolon:semicolon` and `trailing-semicolon:comma` commands.",
+  "readme": "# trailing-semicolon\n\n## Description\nAdd (or remove) a semicolon (or a comma) at the end of the line.\n\n## Features\n* Key bindings (default to `ctrl-;` and `ctrl-,`)\n* Context menu in the editor (`Trailing...`)\n* Multiple cursors, multiple lines\n* Ignore empty lines (optional)\n* Start a new line (optional with default commands, always with `trailing-semicolon:semicolon-newline` and `trailing-semicolon:comma-newline`)\n\n## How to use\nPress  `ctrl-;` or `ctrl+,` to add/remove a semicolon at the end of the selected lines. The context menu can also be used in the editor, see the `\"Trailing...\"` sub-menu.\n\nTwo commands aren't binded to any keys by default : `trailing-semicolon:semicolon-newline` and `trailing-semicolon:comma-newline`. They have the same behavior as the default commands but also start a new line (exactly as `ctrl-enter` would do).\n\n## Known issues\n* The key bindings conflict with default configuration, you can change this in your `keymap.cson` file using `trailing-semicolon:semicolon` and `trailing-semicolon:comma` commands (or `application:show-settings`).",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.50.0 <2.0.0"
   }
 }
